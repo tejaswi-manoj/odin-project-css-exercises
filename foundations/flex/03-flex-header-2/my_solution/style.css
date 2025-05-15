@@ -9,9 +9,12 @@ body {
 }
 
 .header {
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
+  padding:8px;
 }
 
 .profile-image {
@@ -23,6 +26,7 @@ body {
 }
 
 .logo {
+  display: flex;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -44,5 +48,16 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 16px;
   list-style-type: none;
+  margin: 0;
+  padding: 0 ;
 }
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
